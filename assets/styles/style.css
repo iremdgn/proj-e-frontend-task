@@ -1,0 +1,9 @@
+.form-control::placeholder{
+  color: #fff !important;
+  font-size: 14px;
+  text-align: center;
+}
+
+.form-control {
+width: 500px !important;
+}
