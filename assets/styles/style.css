@@ -1,4 +1,5 @@
 /* Common CSS */
+
 * {
   font-family: 'Open Sans', sans-serif;
 }
@@ -20,7 +21,6 @@ span {
   color: #9ca4ab;
 }
 
-
 /* Navbar */
 
 .navbar {
@@ -31,21 +31,73 @@ span {
   font-size: 14px;
 }
 
-.form-control::placeholder{
+.form-control::placeholder {
   color: #fff !important;
   font-size: 13px;
   text-align: center;
-   opacity: 0.8 !important;
+  opacity: 0.8 !important;
 }
 
 .form-control {
-width: 500px !important;
+  width: 500px !important;
+}
+
+/* Products */
+
+.products {
+  padding: 2% 10%;
+}
+
+.products-area-title h4 {
+  color: #4e4c4cd8;
+  font-weight: 600;
+}
+
+.products-area-title span {
+  color: #1564C0;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.product .card-img-top {
+  width: 80%;
+}
+
+.product .star {
+  font-size: 12px;
+  color: #FF9101;
+}
+
+.product .star-text, .product .product-id {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.product .product-name {
+  font-size: 14px;
+}
+
+.product .product-price {
+  color: #1564C0;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.product .alert {
+  font-size: 11px;
+  font-weight: bold;
+  color: #E03B5D;
+}
+
+.product .shipping-alert {
+  background-color: #EEEEEE;
+  font-size: 12px;
 }
 
 /* Footer */
 
 .top-footer {
-  border-bottom: 2.5px solid  #F4F4F4;
+  border-bottom: 2.5px solid #F4F4F4;
 }
 
 .top-footer .footer-container {
@@ -58,8 +110,8 @@ footer h6 {
   padding-bottom: 10px;
 }
 
-footer a, footer span{
-    font-size: 12px;
+footer a, footer span {
+  font-size: 12px;
 }
 
 footer ul li {
