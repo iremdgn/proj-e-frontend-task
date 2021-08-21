@@ -1,4 +1,7 @@
 /* Common CSS */
+* {
+  font-family: 'Open Sans', sans-serif;
+}
 
 h6 {
   color: #7E7E7E;
@@ -20,10 +23,19 @@ span {
 
 /* Navbar */
 
+.navbar {
+  background-color: #1564C0;
+}
+
+.navbar a {
+  font-size: 14px;
+}
+
 .form-control::placeholder{
   color: #fff !important;
-  font-size: 14px;
+  font-size: 13px;
   text-align: center;
+   opacity: 0.8 !important;
 }
 
 .form-control {
@@ -41,6 +53,7 @@ width: 500px !important;
 }
 
 footer h6 {
+  font-weight: 600;
   font-size: 14px;
   padding-bottom: 10px;
 }
