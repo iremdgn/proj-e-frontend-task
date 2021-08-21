@@ -48,6 +48,14 @@ span {
   padding: 2% 10%;
 }
 
+.product .card {
+  border-radius: 0 !important;
+}
+
+.product .card:hover {
+  border-color: #2196F3;
+}
+
 .products-area-title h4 {
   color: #4e4c4cd8;
   font-weight: 600;
@@ -92,6 +100,33 @@ span {
 .product .shipping-alert {
   background-color: #EEEEEE;
   font-size: 12px;
+}
+
+.product .compare-button {
+  width: 20%;
+  background-color: #1564C0;
+}
+
+.product .add-cart-button {
+  width: 80%;
+  background-color: #2196F3;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.product .cart-button .btn {
+  border-radius: 0;
+  color: #ffffff;
+  border: none;
+  padding: 11px 0;
+}
+
+.product .cart-button {
+  bottom: 0;  
+}
+
+.product:hover .cart-button{
+  display: flex !important;
 }
 
 /* Footer */
