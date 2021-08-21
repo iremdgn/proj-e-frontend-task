@@ -1,3 +1,25 @@
+/* Common CSS */
+
+h6 {
+  color: #7E7E7E;
+}
+
+a {
+  color: #9ca4ab !important;
+  text-decoration: none !important;
+}
+
+ul {
+  list-style: none;
+}
+
+span {
+  color: #9ca4ab;
+}
+
+
+/* Navbar */
+
 .form-control::placeholder{
   color: #fff !important;
   font-size: 14px;
@@ -6,4 +28,31 @@
 
 .form-control {
 width: 500px !important;
+}
+
+/* Footer */
+
+.top-footer {
+  border-bottom: 2.5px solid  #F4F4F4;
+}
+
+.top-footer .footer-container {
+  padding: 5% 20%;
+}
+
+footer h6 {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+footer a, footer span{
+    font-size: 12px;
+}
+
+footer ul li {
+  padding-bottom: 6px;
+}
+
+.bottom-footer .footer-container {
+  padding: 3% 10%;
 }
