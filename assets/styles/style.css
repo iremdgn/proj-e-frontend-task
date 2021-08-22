@@ -68,7 +68,7 @@ span {
 }
 
 .product .card-img-top {
-  width: 80%;
+  width: 70%;
 }
 
 .product .star {
@@ -127,6 +127,26 @@ span {
 
 .product:hover .cart-button{
   display: flex !important;
+}
+
+.product .sale-alert {
+  background-color: #2196F3;
+  height: 30px;
+}
+
+.product .sale-alert span {
+  color:#ffffff;
+  font-size: 10px;
+}
+
+.product .web-alert {
+  height: 40px;
+}
+
+.product .web-alert span {
+  color: #2196F3;
+  font-size: 10px;
+  font-weight: 700;
 }
 
 /* Footer */
