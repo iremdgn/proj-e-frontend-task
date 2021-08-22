@@ -34,10 +34,10 @@
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav w-100">
+        <ul class="navbar-nav w-100 navbar-desktop">
           <li class="nav-item">
             <a class="nav-link text-light" href="#" role="button" aria-expanded="false">
               <i class="fas fa-bars me-1"></i> Kategoriler
@@ -45,8 +45,8 @@
           </li>
           <li class="nav-item">
             <form class="d-flex">
-              <input class="form-control ms-4 border-0 " type="search" placeholder="Ürün Ara" aria-label="Search"
-                style="background-color: #4383CB;">
+              <input class="form-control search-box ms-4 border-0 " type="search" placeholder="Ürün Ara"
+                aria-label="Search">
             </form>
           </li>
           <li class="nav-item d-flex ms-5">
@@ -58,10 +58,29 @@
             </a>
           </li>
         </ul>
+        <ul class="navbar-nav w-100 navbar-mobile">
+          <li class="nav-item d-flex mx-auto">
+            <a class="nav-link text-light me-2" href="#" role="button" aria-expanded="false">
+              Kategoriler
+            </a>
+            <a class="nav-link text-light me-2" href="#" role="button" aria-expanded="false">
+              Üyelik <i class="fas fa-user-circle fa-lg ms-1"></i>
+            </a>
+            <a class="nav-link text-light" href="#" role="button" aria-expanded="false">
+              Sepetim <i class="fas fa-shopping-cart fa-lg ms-1 "></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <form class="d-flex w-100">
+              <input class="form-control search-box border-0 w-100" type="search" placeholder="Ürün Ara"
+                aria-label="Search">
+            </form>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
- 
+
   <!-- Top Slider -->
 
   <section class="top-slider position-relative">
@@ -593,8 +612,8 @@
   <footer>
     <section class="top-footer">
       <div class="footer-container">
-        <div class="row row-cols-5">
-          <div class="col">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-5">
+          <div class="col mt-md-3 mt-sm-3">
             <h6>KURUMSAL</h6>
             <ul class="m-0 p-0">
               <li><a href="#">Hakkımızda</a></li>
@@ -615,7 +634,7 @@
               <li><a href="#">İşlem Rehberi</a></li>
             </ul>
           </div>
-          <div class="col">
+          <div class="col mt-md-3 mt-sm-3">
             <h6>KATEGORİLER</h6>
             <ul class="m-0 p-0">
               <li><a href="#">Bilgisayar</a></li>
@@ -637,7 +656,7 @@
               <li><a href="#">Sabit Diskler</a></li>
             </ul>
           </div>
-          <div class="col">
+          <div class="col mt-md-3 mt-sm-3">
             <h6>ÖZEL ÜRÜNLER</h6>
             <ul class="m-0 p-0">
               <li><a href="#">iPhone 7</a></li>
@@ -655,7 +674,7 @@
     </section>
     <section class="bottom-footer">
       <div class="footer-container">
-        <div class="d-flex justify-content-between">
+        <div class="footer-content d-flex justify-content-between">
           <div>
             <span><b>Türkiye'nin Teknoloji Hiperstoru</b></span> <br />
             <span>Copyright 2016 Vatan Bilgisayar San. ve Tic. A.Ş.</span>
@@ -683,7 +702,21 @@
         nextEl: '.top-slider .swiper-button-next',
         prevEl: '.top-slider .swiper-button-prev',
       },
-
+      // Responsive breakpoints
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+        },
+        576: {
+          slidesPerView: 2,
+        },
+        768: {
+          slidesPerView: 3,
+        },
+        992: {
+          slidesPerView: 5,
+        }
+      }
     });
   </script>
 
@@ -699,6 +732,9 @@
       // Responsive breakpoints
       breakpoints: {
         0: {
+          slidesPerView: 1,
+        },
+        350: {
           slidesPerView: 2,
         },
         576: {
