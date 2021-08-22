@@ -42,6 +42,37 @@ span {
   width: 500px !important;
 }
 
+/* Top Slider */
+
+.top-slider {
+  background-color: #1564C0;
+  padding: 5px 0 35px;
+}
+
+.top-slider .swiper-pagination {
+  left: 50%;
+  transform: translateX(-50%)
+}
+
+.top-slider-card .card {
+  height: 480px;
+}
+
+.top-slider-card .card-body {
+  position: absolute;
+  bottom: 2px;
+}
+
+.top-slider-card .card-body p {
+  font-size: 12px;
+  color: #7E7E7E;
+  font-weight: 600;
+}
+
+.top-slider-card .card-body h2 {
+  font-size: 28px;
+}
+
 /* Products */
 
 .products {
@@ -170,7 +201,7 @@ span {
 .bestseller-slider .bs-swiper-btn {
   background-color: #EEEEEE;
   border-radius: 3px;
-  color: #9D9D9D;
+  color: #9E9E9E;
 }
 
 /* Footer */
