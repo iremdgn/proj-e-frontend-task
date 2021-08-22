@@ -94,12 +94,19 @@ span {
 .top-slider-card .card img{
   border-top-left-radius: 3px !important;
   border-top-left-radius: 3px !important;
+  width: auto;
+  height: 75%;
 }
 .square-card{
   width: 570px !important;
 }
 .square-card .card{
   width: 570px;
+}
+
+.square-card .card img{
+  width: 100%;
+  height: 100%;
 }
 
 .top-slider-card .card-body {
