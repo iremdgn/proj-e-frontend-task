@@ -3,5 +3,5 @@ Proj-e Frontend Task
 
 Proj-e Yazılım Firmasının işe alım sürecinde göndermiş olduğu ödevi HTML, CSS ve Bootstrap 5 kullanarak responsive olarak gerçekleştirmeye çalıştım.
 
-![web](https://www.mavibirdunya.com/wp-content/uploads/2021/08/screencapture-file-C-Users-irem-Documents-GitHub-proj-e-frontend-task-index-html-2021-08-22-19_08_38.png)
+![GnRTcabFLHi649Pqp-proj-e-firmasi-front-end-developer-task](https://user-images.githubusercontent.com/65050139/178926005-97f24a75-e314-4c4a-a6c9-25a4eefc89cd.png)
 
